@@ -1,0 +1,342 @@
+/* 비주얼시작 */
+#visual {
+    margin-top: 157px;
+}
+#visual .inner {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+#visual .inner .bgvideo video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    position: relative;
+}
+/* 비주얼 끝 */
+/* 메인콘시작 */
+.main-con1 {
+    color: #fff;
+    padding: 80px 0;
+    transform: translateY(100px);
+    transition: 0.8s ease-in;
+    opacity: 0;
+}
+
+.main-con1.on {
+    opacity: 1;
+    transform: translateY(0);
+}
+.main-con1 .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-con1 .inner > h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.main-con1 .inner > h2 > span {
+    display: block;
+    font-size: 18px;
+    color: #888;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.main-con1 .inner .drow {
+    display: flex;
+    gap: 40px;
+}
+
+.main-con1 .inner .drow .showbox1,
+.main-con1 .inner .drow .showbox2 {
+    width: 50%;
+    display: flex;
+    background-color: #111;
+    height: 300px;
+    overflow: hidden;
+    transition: 0.3s linear;
+}
+
+.main-con1 .inner .drow .textbox {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-con1 .inner .drow .textbox h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.main-con1 .inner .drow .textbox > p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.main-con1 .inner .drow .bookbtn {
+    margin-top: 20px;
+    background-color: #facc15;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    width: fit-content;
+}
+.main-con1 .inner .drow .bookbtn:hover {
+    background-color: #d19f07;
+    color: white;
+}
+.main-con1 .inner .drow .imgbox {
+    width: 50%;
+}
+.main-con1 .inner .drow .imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 컨1끝 */
+.main-con2 {
+    color: #fff;
+    padding: 80px 0;
+    transform: translateY(100px);
+    transition: 1.2s ease-in;
+    opacity: 0;
+}
+.main-con2.on {
+    opacity: 1;
+    transform: translateY(0);
+}
+.main-con2 .inner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-con2 .inner > h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main-con2 .inner h2 > span {
+    display: block;
+    font-size: 18px;
+    color: #888;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.main-con2 .inner .collection {
+    justify-content: center;
+    display: flex;
+}
+.main-con2 .inner .collection img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    transition: 0.3s linear;
+    margin-bottom: 10px;
+}
+.main-con2 .inner .collection img:hover {
+    transform: scale(1.1);
+}
+.main-con2 .inner .collection .colect {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-con2 .inner .collection .colect .conllection {
+    display: flex;
+    flex-direction: column;
+}
+.main-con2 .inner i:hover {
+    color: #618db9;
+}
+.main-con2 .inner .collection .colect .conllection .coltext > p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.main-con2 .inner .collection .colect .conllection .coltext > h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.main-con2 .inner .collection .colect .conllection .coltext h2 > span {
+    font-size: 15px;
+}
+.main-con2 .inner .collection .colect .conllection .coltext strong {
+    display: block;
+    text-align: center;
+}
+.main-con2 .inner .collection .colect .conllection .info {
+    display: none;
+}
+.main-con2 .inner .collection .colect .conllection .info > p {
+    text-align: left;
+}
+.main-con2 .inner .next {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+}
+.main-con2 .inner i {
+    font-size: 20px;
+    cursor: pointer;
+}
+/* 컨2끝 */
+/* 컨3시작 */
+.main-con3 {
+    color: #fff;
+    padding: 80px 0;
+    transform: translateY(100px);
+    transition: 2s ease-in;
+    opacity: 0;
+}
+.main-con3.on {
+    opacity: 1;
+    transform: translateY(0);
+}
+.main-con3 .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-con3 .inner > h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.main-con3 .inner h2 > span {
+    display: block;
+    font-size: 18px;
+    color: #888;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.main-con3 .inner .introduce img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+}
+.main-con3 .inner .introduce .in {
+    transition: 0.3s linear;
+}
+.main-con3 .inner .introduce .in:hover {
+    transform: scale(1.05);
+}
+.main-con3 .inner .introduce {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-con3 .inner .introduce h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+.main-con3 .inner .introduce h2 > span {
+    display: block;
+    font-size: 18px;
+    color: #888;
+    margin-top: 5px;
+    font-weight: 400;
+    text-align: left;
+}
+.main-con3 .inner .introduce p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #cecece;
+    text-align: left;
+    margin-top: 5px;
+}
+
+/* 컨3끝 */
+/* 푸터시작 */
+#footer {
+    width: 100%;
+    height: 300px;
+    background: #000000;
+}
+#footer .inner {
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+}
+#footer .footer1 {
+    margin-top: 50px;
+    text-align: left;
+}
+#footer .inner .footer1 img {
+    margin-left: 20px;
+    width: 300px;
+    object-fit: contain;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+#footer .inner .footertext::after {
+    content: '';
+    width: 2px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    height: 150px;
+    border-radius: 25px;
+    background: #222;
+}
+#footer .inner .footertext p > span > a {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+#footer .inner .footertext p > a {
+    color: white;
+}
+#footer .inner .footertext p {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    transform: translateY(20%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+#footer .inner .information {
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+
+#footer .inner .information p {
+    position: absolute;
+    top: 15px;
+    right: 15%;
+    transform: translateY(20%);
+    color: rgb(95, 95, 95);
+    gap: 10px;
+    text-align: left;
+}
